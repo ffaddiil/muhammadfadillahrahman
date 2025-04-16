@@ -1,0 +1,123 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Fadil's Website</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f0f4f8;
+    }
+
+    .navbar {
+      background-color: #333;
+      overflow: hidden;
+      padding: 10px 0;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+
+    .navbar a {
+      float: left;
+      display: block;
+      color: white;
+      padding: 14px 20px;
+      text-decoration: none;
+      transition: 0.3s;
+    }
+
+    .navbar a:hover {
+      background-color: #ddd;
+      color: black;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 50px auto;
+      padding: 20px;
+      text-align: center;
+      background-color: white;
+      border-radius: 10px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    }
+
+    .welcome-message {
+      background-color: #4CAF50;
+      color: white;
+      padding: 30px 20px;
+      border-radius: 8px;
+      font-size: 24px;
+      margin-bottom: 30px;
+    }
+
+    section {
+      margin-top: 40px;
+    }
+
+    section img {
+      max-width: 100%;
+      width: 300px;
+      border-radius: 12px;
+      display: block;
+      margin: 20px auto;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #333;
+      color: white;
+      margin-top: 40px;
+    }
+
+    .btn-pdf {
+      display: inline-block;
+      background-color: #4CAF50;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 6px;
+      text-decoration: none;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="navbar">
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#project">Project</a>
+  </div>
+
+  <div class="container" id="home">
+    <div class="welcome-message">
+      <h1>Welcome to My Website!</h1>
+      <p>Senang bisa berbagi bersama kalian.</p>
+    </div>
+
+    <section id="about">
+      <h2>Tentang Saya</h2>
+      <img src="fadil.JPG" alt="Foto Fadil bareng teman-teman">
+      <p>Halo! Saya Fadil, mahasiswa Teknik Informatika yang sedang belajar membuat website menggunakan HTML, CSS, dan GitHub Pages. Ini adalah proyek latihan saya.</p>
+    </section>
+
+    <section id="project">
+      <h2>Project UTS</h2>
+      <p>Berikut ini adalah makalah UTS saya dalam format PDF:</p>
+      <a class="btn-pdf" href="MAKALAH PROJECT WEB.pdf" target="_blank">Buka Makalah PDF</a>
+    </section>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 Muhammad Rahman Fadillah</p>
+  </footer>
+
+</body>
+</html>
